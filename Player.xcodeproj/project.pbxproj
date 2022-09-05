@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37CCF2054CD0B6902E26EB5A /* Pods_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52563BAD61DC74AEC986768 /* Pods_Player.framework */; };
 		8B00CBA528C4B409003250E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00CBA428C4B409003250E8 /* AppDelegate.swift */; };
 		8B00CBA928C4B409003250E8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00CBA828C4B409003250E8 /* PlayerViewController.swift */; };
 		8B00CBAE28C4B40A003250E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B00CBAD28C4B40A003250E8 /* Assets.xcassets */; };
 		8B00CBB128C4B40A003250E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B00CBAF28C4B40A003250E8 /* LaunchScreen.storyboard */; };
-		8B00CBBA28C4B4D7003250E8 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 8B00CBB928C4B4D7003250E8 /* CollectionViewPagingLayout */; };
 		8B7B7E3228C4CFDC00EE540E /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3128C4CFDC00EE540E /* MusicCell.swift */; };
 		8B7B7E3728C5F2CF00EE540E /* Shook Ones Pt.2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3428C5F2CE00EE540E /* Shook Ones Pt.2.mp3 */; };
 		8B7B7E3928C5F2CF00EE540E /* Smack My Bitch Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3628C5F2CF00EE540E /* Smack My Bitch Up.mp3 */; };
@@ -31,6 +31,9 @@
 		8B7B7E3628C5F2CF00EE540E /* Smack My Bitch Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Smack My Bitch Up.mp3"; sourceTree = "<group>"; };
 		8B7B7E3A28C5F44900EE540E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		8B7B7E3C28C5FF8500EE540E /* Butterfly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Butterfly.mp3; sourceTree = "<group>"; };
+		C52563BAD61DC74AEC986768 /* Pods_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC37B22A64F153265B821AF /* Pods-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Player.debug.xcconfig"; path = "Target Support Files/Pods-Player/Pods-Player.debug.xcconfig"; sourceTree = "<group>"; };
+		DFBD609FD4FE1D4668506145 /* Pods-Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Player.release.xcconfig"; path = "Target Support Files/Pods-Player/Pods-Player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,18 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B00CBBA28C4B4D7003250E8 /* CollectionViewPagingLayout in Frameworks */,
+				37CCF2054CD0B6902E26EB5A /* Pods_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A41F2C7BF5673470F310192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC37B22A64F153265B821AF /* Pods-Player.debug.xcconfig */,
+				DFBD609FD4FE1D4668506145 /* Pods-Player.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8B00CB9828C4B409003250E8 = {
 			isa = PBXGroup;
 			children = (
 				8B00CBA328C4B409003250E8 /* Player */,
 				8B00CBA228C4B409003250E8 /* Products */,
+				7A41F2C7BF5673470F310192 /* Pods */,
+				BB793D374E6DF3981EE04CC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +132,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BB793D374E6DF3981EE04CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C52563BAD61DC74AEC986768 /* Pods_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B00CBB528C4B40A003250E8 /* Build configuration list for PBXNativeTarget "Player" */;
 			buildPhases = (
+				591C413E05E3F9E2B8980695 /* [CP] Check Pods Manifest.lock */,
 				8B00CB9D28C4B409003250E8 /* Sources */,
 				8B00CB9E28C4B409003250E8 /* Frameworks */,
 				8B00CB9F28C4B409003250E8 /* Resources */,
+				480C8D10A078D26D4B8DED28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,7 +159,6 @@
 			);
 			name = Player;
 			packageProductDependencies = (
-				8B00CBB928C4B4D7003250E8 /* CollectionViewPagingLayout */,
 			);
 			productName = Player;
 			productReference = 8B00CBA128C4B409003250E8 /* Player.app */;
@@ -166,7 +189,6 @@
 			);
 			mainGroup = 8B00CB9828C4B409003250E8;
 			packageReferences = (
-				8B00CBB828C4B4D7003250E8 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
 			);
 			productRefGroup = 8B00CBA228C4B409003250E8 /* Products */;
 			projectDirPath = "";
@@ -191,6 +213,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480C8D10A078D26D4B8DED28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Player/Pods-Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Player/Pods-Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Player/Pods-Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		591C413E05E3F9E2B8980695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B00CB9D28C4B409003250E8 /* Sources */ = {
@@ -334,6 +398,7 @@
 		};
 		8B00CBB628C4B40A003250E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC37B22A64F153265B821AF /* Pods-Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -361,6 +426,7 @@
 		};
 		8B00CBB728C4B40A003250E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBD609FD4FE1D4668506145 /* Pods-Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -408,25 +474,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8B00CBB828C4B4D7003250E8 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/amirdew/CollectionViewPagingLayout";
-			requirement = {
-				kind = exactVersion;
-				version = 1.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8B00CBB928C4B4D7003250E8 /* CollectionViewPagingLayout */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8B00CBB828C4B4D7003250E8 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
-			productName = CollectionViewPagingLayout;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B00CB9928C4B409003250E8 /* Project object */;
 }
