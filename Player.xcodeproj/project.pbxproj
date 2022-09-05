@@ -8,22 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		8B00CBA528C4B409003250E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00CBA428C4B409003250E8 /* AppDelegate.swift */; };
-		8B00CBA728C4B409003250E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00CBA628C4B409003250E8 /* SceneDelegate.swift */; };
-		8B00CBA928C4B409003250E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00CBA828C4B409003250E8 /* ViewController.swift */; };
-		8B00CBAC28C4B409003250E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B00CBAA28C4B409003250E8 /* Main.storyboard */; };
+		8B00CBA928C4B409003250E8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00CBA828C4B409003250E8 /* PlayerViewController.swift */; };
 		8B00CBAE28C4B40A003250E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B00CBAD28C4B40A003250E8 /* Assets.xcassets */; };
 		8B00CBB128C4B40A003250E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B00CBAF28C4B40A003250E8 /* LaunchScreen.storyboard */; };
+		8B00CBBA28C4B4D7003250E8 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 8B00CBB928C4B4D7003250E8 /* CollectionViewPagingLayout */; };
+		8B7B7E3228C4CFDC00EE540E /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3128C4CFDC00EE540E /* MusicCell.swift */; };
+		8B7B7E3728C5F2CF00EE540E /* Shook Ones Pt.2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3428C5F2CE00EE540E /* Shook Ones Pt.2.mp3 */; };
+		8B7B7E3928C5F2CF00EE540E /* Smack My Bitch Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3628C5F2CF00EE540E /* Smack My Bitch Up.mp3 */; };
+		8B7B7E3B28C5F44900EE540E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3A28C5F44900EE540E /* Song.swift */; };
+		8B7B7E3D28C5FF8500EE540E /* Butterfly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B7E3C28C5FF8500EE540E /* Butterfly.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B00CBA128C4B409003250E8 /* Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B00CBA428C4B409003250E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B00CBA628C4B409003250E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B00CBA828C4B409003250E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B00CBAB28C4B409003250E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B00CBA828C4B409003250E8 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		8B00CBAD28C4B40A003250E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B00CBB028C4B40A003250E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B00CBB228C4B40A003250E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7B7E3128C4CFDC00EE540E /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		8B7B7E3428C5F2CE00EE540E /* Shook Ones Pt.2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shook Ones Pt.2.mp3"; sourceTree = "<group>"; };
+		8B7B7E3628C5F2CF00EE540E /* Smack My Bitch Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Smack My Bitch Up.mp3"; sourceTree = "<group>"; };
+		8B7B7E3A28C5F44900EE540E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		8B7B7E3C28C5FF8500EE540E /* Butterfly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Butterfly.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B00CBBA28C4B4D7003250E8 /* CollectionViewPagingLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +64,58 @@
 		8B00CBA328C4B409003250E8 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				8B00CBA428C4B409003250E8 /* AppDelegate.swift */,
-				8B00CBA628C4B409003250E8 /* SceneDelegate.swift */,
-				8B00CBA828C4B409003250E8 /* ViewController.swift */,
-				8B00CBAA28C4B409003250E8 /* Main.storyboard */,
-				8B00CBAD28C4B40A003250E8 /* Assets.xcassets */,
-				8B00CBAF28C4B40A003250E8 /* LaunchScreen.storyboard */,
+				8B7B7E3328C5F2BD00EE540E /* Audio */,
+				8B7B7E3E28C647B800EE540E /* Support Files */,
+				8B7B7E3F28C647CE00EE540E /* Controller */,
+				8B7B7E4028C647DC00EE540E /* Cell */,
+				8B7B7E4128C647E400EE540E /* Model */,
 				8B00CBB228C4B40A003250E8 /* Info.plist */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		8B7B7E3328C5F2BD00EE540E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B7E3628C5F2CF00EE540E /* Smack My Bitch Up.mp3 */,
+				8B7B7E3428C5F2CE00EE540E /* Shook Ones Pt.2.mp3 */,
+				8B7B7E3C28C5FF8500EE540E /* Butterfly.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8B7B7E3E28C647B800EE540E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B00CBA428C4B409003250E8 /* AppDelegate.swift */,
+				8B00CBAD28C4B40A003250E8 /* Assets.xcassets */,
+				8B00CBAF28C4B40A003250E8 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		8B7B7E3F28C647CE00EE540E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B00CBA828C4B409003250E8 /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B7B7E4028C647DC00EE540E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B7E3128C4CFDC00EE540E /* MusicCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8B7B7E4128C647E400EE540E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B7E3A28C5F44900EE540E /* Song.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,9 @@
 			dependencies = (
 			);
 			name = Player;
+			packageProductDependencies = (
+				8B00CBB928C4B4D7003250E8 /* CollectionViewPagingLayout */,
+			);
 			productName = Player;
 			productReference = 8B00CBA128C4B409003250E8 /* Player.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 8B00CB9828C4B409003250E8;
+			packageReferences = (
+				8B00CBB828C4B4D7003250E8 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
+			);
 			productRefGroup = 8B00CBA228C4B409003250E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +182,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7B7E3D28C5FF8500EE540E /* Butterfly.mp3 in Resources */,
+				8B7B7E3728C5F2CF00EE540E /* Shook Ones Pt.2.mp3 in Resources */,
 				8B00CBB128C4B40A003250E8 /* LaunchScreen.storyboard in Resources */,
 				8B00CBAE28C4B40A003250E8 /* Assets.xcassets in Resources */,
-				8B00CBAC28C4B409003250E8 /* Main.storyboard in Resources */,
+				8B7B7E3928C5F2CF00EE540E /* Smack My Bitch Up.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B00CBA928C4B409003250E8 /* ViewController.swift in Sources */,
+				8B7B7E3B28C5F44900EE540E /* Song.swift in Sources */,
+				8B00CBA928C4B409003250E8 /* PlayerViewController.swift in Sources */,
 				8B00CBA528C4B409003250E8 /* AppDelegate.swift in Sources */,
-				8B00CBA728C4B409003250E8 /* SceneDelegate.swift in Sources */,
+				8B7B7E3228C4CFDC00EE540E /* MusicCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B00CBAA28C4B409003250E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B00CBAB28C4B409003250E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B00CBAF28C4B40A003250E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +344,6 @@
 				INFOPLIST_FILE = Player/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +371,6 @@
 				INFOPLIST_FILE = Player/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B00CBB828C4B4D7003250E8 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amirdew/CollectionViewPagingLayout";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B00CBB928C4B4D7003250E8 /* CollectionViewPagingLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B00CBB828C4B4D7003250E8 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
+			productName = CollectionViewPagingLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B00CB9928C4B409003250E8 /* Project object */;
 }
